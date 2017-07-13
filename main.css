@@ -1,0 +1,62 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: #CC1F2D;
+  margin: 0;
+  padding: 0;
+}
+
+.vagina-conselheira {
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+
+#carregando-conselho {
+
+}
+
+
+
+.share-container {
+  display: block;
+  position: fixed;
+  width: 3.6rem;
+  left: 0;
+  top: -128px;
+  z-index: 400;
+
+  background-color: rgba(0,0,0,0);
+  padding: 0 0.6rem;
+  transition: top 0.5s linear;
+}
+.share-container a {
+  display: block;
+}
+.share-container a+a {
+  margin-top: 1.14rem;
+}
+.share-container img {
+  display: block;
+  width: 100%;
+}
+
+.loader-spinner {
+  display: block;
+  width: 20%;
+  max-width: 100px;
+  min-width: 64px;
+  animation: spin 1.8s linear infinite;
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
