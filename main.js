@@ -1,8 +1,9 @@
 var vagina = null;
 
 function carregaConselho() {
-  vagina = document.getElementById('vagina-conselheira');
+  vagina = document.getElementById('vagina');
   vagina.className = 'carregando-conselho';
-  //vagina.className = 'vagina';
   console.log(vagina);
+  slee
+  //vagina.className = 'vagina';
 }

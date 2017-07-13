@@ -1,3 +1,7 @@
+--desktop-width-site: 1150px;
+--columns-quantity: 5;
+--column-width: --desktop-width-site / --columns-quantity;
+
 html {
   font-size: 14px;
 }
@@ -8,7 +12,7 @@ body {
   padding: 0;
 }
 
-.vagina {
+#vagina {
   display: inline-block;
   position: fixed;
   top: 0;
