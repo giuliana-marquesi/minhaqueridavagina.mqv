@@ -8,7 +8,7 @@ body {
   padding: 0;
 }
 
-.vagina-conselheira {
+.vagina {
   display: inline-block;
   position: fixed;
   top: 0;
@@ -18,10 +18,16 @@ body {
   margin: auto;
 }
 
+.carregando-conselho {
+  animation-name: mexe-vagina;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: 4;
+}
 
-
-#carregando-conselho {
-
+@keyframes mexe-vagina {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(10deg);}
 }
 
 
