@@ -33,18 +33,20 @@ body {
   left: 0;
   right: 0;
   margin: auto;
+  width: 184px;
+  height: 328px;
+  background-image: url('imgs/mqv-ciclo.png');
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 .carregando-conselho {
-  animation-name: mexe-vagina;
-  animation-duration: 1s;
-  animation-direction: alternate;
-  animation-iteration-count: 4;
+  animation: mexe-vagina 2s steps(5);
 }
 
 @keyframes mexe-vagina {
-  from {transform:rotate(0deg);}
-  to {transform:rotate(10deg);}
+  from {background-position: 0}
+  to {background-position: -918px}
 }
 
 
