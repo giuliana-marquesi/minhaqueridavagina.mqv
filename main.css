@@ -8,7 +8,8 @@ body {
   padding: 0;
 }
 
-.resposta-balao {
+#resposta-balao {
+  display: none;
   background-image: url('imgs/container-banner-pink.png');
   background-size: 100% 100%;
   max-width: 100%;
@@ -18,7 +19,7 @@ body {
   padding-top: 12px;
 }
 
-.resposta-texto {
+#resposta-texto {
   margin: 0;
   text-align: center;
   font: 900 80px/1 'Patrick Hand';

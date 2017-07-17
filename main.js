@@ -6,23 +6,15 @@ var listaResposta = [
 
 function carregaConselho() {
 
-  var conselhoP = document.createElement('p');
-  var conselhoDiv = document.createElement('div');
+  var conselhoP = document.getElementById('resposta-texto');
+  var conselhoDiv = document.getElementById('resposta-balao');
   var vagina = document.getElementById('vagina');
-  var conteiner = document.getElementById('conteiner-da-vagina');
 
   var numero = Math.floor(Math.random() * listaResposta.length);
 
-  vagina.className = 'carregando-conselho';
+  vagina.classList.remove('carregando-conselho');
+  vagina.classList.add('carregando-conselho');
 
+  conselhoDiv.style.display = 'block';
   conselhoP.innerHTML = listaResposta[numero];
-  console.log(numero);
-  console.log(listaResposta);
-
-  conselhoDiv.classList.add("resposta-balao");
-  conselhoP.classList.add("resposta-texto");
-  conselhoDiv.appendChild(conselhoP);
-  conteiner.appendChild(conselhoDiv);
-
-
 }
