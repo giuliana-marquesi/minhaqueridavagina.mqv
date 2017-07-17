@@ -10,9 +10,9 @@ body {
 
 #resposta-balao {
   display: none;
-  background-image: url('imgs/container-banner-pink.png');
+  background-image: url('imgs/balao.png');
   background-size: 100% 100%;
-  max-width: 100%;
+  max-width: 50%;
   min-height: 128px;
   max-height: 200px;
   padding: 8px;
