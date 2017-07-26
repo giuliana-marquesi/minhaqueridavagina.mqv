@@ -4,34 +4,29 @@ var listaResposta = [
   'Sei lá'
 ]
 
-var conselhoP = document.getElementById('resposta-texto');
-var conselhoDiv = document.getElementById('resposta-balao');
 
 function carregaConselho() {
 
+  var conselhoP = document.getElementById('resposta-texto');
+  var conselhoDiv = document.getElementById('resposta-balao');
   var vagina = document.getElementById('vagina');
 
   vagina.classList.add('carregando-conselho');
 
-  vagina.addEventListener("animationend", falaConselho);
-  vagina.addEventListener("animationstart", someConselho);
+  vagina.addEventListener("animationend", function() {falaConselho(vagina, conselhoDiv, conselhoP)});
+  vagina.addEventListener("animationstart", function() {someConselho(conselhoDiv, conselhoP)});
 
 
 }
 
-function falaConselho() {
-  var conselhoP = document.getElementById('resposta-texto');
-  var conselhoDiv = document.getElementById('resposta-balao');
-  var vagina = document.getElementById('vagina');
+function falaConselho(vagina, conselhoDiv, conselhoP) {
 
   conselhoDiv.style.display = 'block';
   conselhoP.style.display = 'block';
   vagina.classList.remove('carregando-conselho');
 }
 
-function someConselho() {
-  var conselhoP = document.getElementById('resposta-texto');
-  var conselhoDiv = document.getElementById('resposta-balao');
+function someConselho(conselhoDiv, conselhoP) {
 
   conselhoP.style.display = 'none';
   conselhoDiv.style.display = 'none';
