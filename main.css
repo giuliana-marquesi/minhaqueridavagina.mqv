@@ -12,17 +12,14 @@ body {
   display: none;
   background-image: url('imgs/balao.png');
   background-size: 100% 100%;
-  max-width: 50%;
-  min-height: 128px;
-  max-height: 200px;
-  padding: 8px;
-  padding-top: 12px;
+  width: 50%;
+  padding: 3vh 7vh 13vh;
 }
 
 #resposta-texto {
   margin: 0;
   text-align: center;
-  font: 900 80px/1 'Patrick Hand';
+  font: 600 5vh 'Patrick Hand';
 }
 
 #vagina {
@@ -38,6 +35,10 @@ body {
   background-image: url('imgs/mqv-ciclo.png');
   background-repeat: no-repeat;
   background-position: top left;
+}
+
+#conteiner-da-vagina {
+
 }
 
 .carregando-conselho {
