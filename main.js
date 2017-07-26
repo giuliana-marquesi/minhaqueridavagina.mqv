@@ -14,6 +14,7 @@ var listaResposta = [
   'Entre a Dani e a Laura qual das duas vc pegaria? Eu pegaria as duas. Sim, as vezes sua vagina tem uma orientação sexual diferente da sua! Ha-ha'
 ]
 
+var cont = 0;
 
 function carregaConselho() {
 
@@ -25,22 +26,22 @@ function carregaConselho() {
 
   vagina.addEventListener("animationend", function() {falaConselho(vagina, conselhoDiv, conselhoP)});
   vagina.addEventListener("animationstart", function() {someConselho(conselhoDiv, conselhoP)});
-
+  console.log("entrou no carregaConselho");
 
 }
 
 function falaConselho(vagina, conselhoDiv, conselhoP) {
-
+  console.log("entrou no fala conselho");
   conselhoDiv.style.display = 'block';
   conselhoP.style.display = 'block';
   vagina.classList.remove('carregando-conselho');
+  var numero = Math.floor(Math.random() * listaResposta.length);
+  conselhoP.innerHTML = listaResposta[numero];
 }
 
 function someConselho(conselhoDiv, conselhoP) {
-
+  console.log("entrou no some conselho");
   conselhoP.style.display = 'none';
   conselhoDiv.style.display = 'none';
 
-  var numero = Math.floor(Math.random() * listaResposta.length);
-  conselhoP.innerHTML = listaResposta[numero];
 }
