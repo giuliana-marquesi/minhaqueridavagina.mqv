@@ -24,7 +24,7 @@ body {
   background-image: url('imgs/balao.png');
   background-size: 100% 100%;
   max-width: 60%;
-  padding: 3vh 2vh 13vh;
+  padding: 3vh 2vh 11vh;
 }
 
 #resposta-texto {
