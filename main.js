@@ -3,15 +3,15 @@ var listaResposta = [
   'Traz a bebida que pixca!',
   'Ai miga, sua louca! Assim faz cosquinha.',
   'Você me toca aqui, mas e lá?',
-  'A fim de produzir uma endorfina hoje?',
+  'Afim de produzir uma endorfina hoje?',
   'Hoje, eu tô, que tô, que tô (cantando)... Ela é bem funkeira ela.',
   'Pode vir quente que eu estou fervendo…',
   'Bate aqui que eu gozo ali.',
-  'To a fim de fazer uns exercícios. Bora no pompoarismo?',
+  'Tô afim de fazer uns exercícios. Bora no pompoarismo?',
   'Se você não se ama como pode amar alguém? Posso ouvir um "Amém"?',
   'Que dia é hoje? O dia das coisas ficarem vermelhas! HA-HA',
-  'Você ja ouviu falar de MQV? Vai ser um bafo!',
-  'Entre a Dani e a Laura qual das duas vc pegaria? Eu pegaria as duas. Sim, as vezes sua vagina tem uma orientação sexual diferente da sua! Ha-ha'
+  'Você já ouviu falar de MQV? Vai ser um bafo!',
+  'Dani ou Laura? Eu pegaria as duas. Vaginas tem orientação sexual própria! Ha-ha'
 ]
 
 var cont = 0;
