@@ -46,8 +46,9 @@ body {
   background-position: top left;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 600px) {
   #vagina {
+    top: 40%;
     margin-left: -92px;
     width: 184px;
     height: 328px;
@@ -64,7 +65,7 @@ body {
   to {background-position: -459px}
 }
 
-@media (min-width: 720px) {
+@media (min-width: 600px) {
   @keyframes mexe-vagina {
     from {background-position: 0}
     to {background-position: -918px}
