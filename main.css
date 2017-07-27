@@ -8,11 +8,22 @@ body {
   padding: 0;
 }
 
+#conteiner-da-vagina {
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 3vw;
+}
+
 #resposta-balao {
   display: none;
   background-image: url('imgs/balao.png');
   background-size: 100% 100%;
-  width: 50%;
+  width: 60%;
   padding: 3vh 7vh 13vh;
 }
 
@@ -23,34 +34,41 @@ body {
 }
 
 #vagina {
-  display: inline-block;
   position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 184px;
-  height: 328px;
-  background-image: url('imgs/mqv-ciclo.png');
+  top: 50%;
+  left: 50%;
+  width: 92px;
+  height: 164px;
+  background-image: url('imgs/mqv-ciclo-mobile.png');
   background-repeat: no-repeat;
   background-position: top left;
 }
 
-#conteiner-da-vagina {
-
+@media (min-width: 720px) {
+  #vagina {
+    top: 45%;
+    left: 60%;
+    width: 184px;
+    height: 328px;
+    background-image: url('imgs/mqv-ciclo.png');
+  }
 }
 
 .carregando-conselho {
-  animation: mexe-vagina 2s steps(5);
+  animation: mexe-vagina 1s steps(5);
 }
 
 @keyframes mexe-vagina {
   from {background-position: 0}
-  to {background-position: -918px}
+  to {background-position: -459px}
 }
 
-
+@media (min-width: 720px) {
+  @keyframes mexe-vagina {
+    from {background-position: 0}
+    to {background-position: -918px}
+  }
+}
 
 .share-container {
   display: block;
@@ -73,16 +91,4 @@ body {
 .share-container img {
   display: block;
   width: 100%;
-}
-
-.loader-spinner {
-  display: block;
-  width: 20%;
-  max-width: 100px;
-  min-width: 64px;
-  animation: spin 1.8s linear infinite;
-}
-@keyframes spin {
-  from {transform:rotate(0deg);}
-  to {transform:rotate(360deg);}
 }
