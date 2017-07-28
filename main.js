@@ -42,7 +42,6 @@ function falaConselho(vagina, conselhoDiv, conselhoP, numero) {
 }
 
 function someConselho(conselhoDiv, conselhoP) {
-  console.log("entrou no some conselho");
   conselhoP.style.display = 'none';
   conselhoDiv.style.display = 'none';
 
