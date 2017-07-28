@@ -100,18 +100,28 @@ body {
   width: 10vh;
   padding-right: 1vh;
   border-radius: 50%;
-  transition: width .4s linear, height .4s linear, background-color .4s linear;
+  transition: background-color .4s linear, width .4s linear, height .4s linear;
 }
 
-#somos-mqv:active {
-  width: 20vh;
-  height: 20vh;
-  background-color: blue;
+#somos-mqv:hover {
+  width: 70vw;
+  min-height: 20vh;
+  background-color: white;
   bottom: 3%;
   right: 3%;
   border-radius: 10%;
 }
 
-#somos-mqv:active img {
+#somos-mqv:hover img {
   display: none;
+}
+
+#somos-mqv p {
+  display: none;
+}
+
+#somos-mqv:hover p {
+  display: block;
+  color: black;
+  font: 200 5vh 'Patrick Hand',sans-serif;
 }
