@@ -17,13 +17,13 @@ body {
   display: block;
   background-image: url('imgs/balao.png');
   background-size: 100% 100%;
-  max-width: 60%;
+  max-width: 60vw;
   padding: 3vh 2vh 11vh;
 }
 
 @media (min-width: 600px) {
   #resposta-balao {
-    width: 50%;
+    max-width: 45vw;
   }
 }
 #resposta-texto {
@@ -48,7 +48,6 @@ body {
 
 @media (min-width: 600px) {
   #vagina {
-    top: 40%;
     margin-left: -92px;
     width: 184px;
     height: 328px;
