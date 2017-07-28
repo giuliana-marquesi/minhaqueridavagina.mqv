@@ -76,9 +76,9 @@ body {
   position: fixed;
   bottom: 0%;
   right: 0%;
+  margin-bottom: 11.5vh;
   display: block;
   width: 10vh;
-  z-index: 400;
 
   background-color: rgba(0,0,0,0);
   padding: 1vh;
@@ -94,4 +94,25 @@ body {
   width: 100%;
 }
 
-transition: top 0.5s linear;
+#somos-mqv {
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  width: 10vh;
+  padding-right: 1vh;
+  border-radius: 50%;
+  transition: width .4s linear, height .4s linear, background-color .4s linear;
+}
+
+#somos-mqv:active {
+  width: 20vh;
+  height: 20vh;
+  background-color: blue;
+  bottom: 3%;
+  right: 3%;
+  border-radius: 10%;
+}
+
+#somos-mqv:active img {
+  display: none;
+}
