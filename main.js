@@ -30,6 +30,8 @@ function carregaConselho() {
 
   vagina.addEventListener("animationend", function() {falaConselho(vagina, conselhoDiv, conselhoP, cont)});
   vagina.addEventListener("animationstart", function() {someConselho(conselhoDiv, conselhoP)});
+
+  //não esquecer de tirar isso depois
   if (cont < listaResposta.length - 1){
     cont++;
   } else {
