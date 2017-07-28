@@ -13,7 +13,12 @@ var listaResposta = [
   'Você já ouviu falar de MQV? Vai ser um bafo!',
   'Dani ou Laura? Eu pegaria as duas. Vaginas tem orientação sexual própria! Ha-ha',
   'Relaxa e goza que a vida é rosa',
-  'Pode me tocar. Não precisa de outra mão'
+  'Pode me tocar. Não precisa de outra mão',
+  'Ai, que delícia! Até babei aqui!',
+  'Antes de entrar tem que tocar aquela campainha ali em cima, bebê! Gosto de gente educada!',
+  'Beija meus lábios (não disse quais)',
+  '“Mulher tem que ser depilada” Acho uó esse povo que nem me conhece palpitando meu corte de cabelo!',
+  'Pode olhar pra mim, amiga! Eu sou linda!'
 ]
 
 var cont = 0;
