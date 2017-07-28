@@ -23,21 +23,21 @@ function carregaConselho() {
   var conselhoP = document.getElementById('resposta-texto');
   var conselhoDiv = document.getElementById('resposta-balao');
   var vagina = document.getElementById('vagina');
+  var numero = Math.floor(Math.random() * listaResposta.length);
 
   vagina.classList.add('carregando-conselho');
 
-  vagina.addEventListener("animationend", function() {falaConselho(vagina, conselhoDiv, conselhoP)});
+  vagina.addEventListener("animationend", function() {falaConselho(vagina, conselhoDiv, conselhoP, numero)});
   vagina.addEventListener("animationstart", function() {someConselho(conselhoDiv, conselhoP)});
   console.log("entrou no carregaConselho");
 
 }
 
-function falaConselho(vagina, conselhoDiv, conselhoP) {
+function falaConselho(vagina, conselhoDiv, conselhoP, numero) {
   console.log("entrou no fala conselho");
   conselhoDiv.style.display = 'block';
   conselhoP.style.display = 'block';
   vagina.classList.remove('carregando-conselho');
-  var numero = Math.floor(Math.random() * listaResposta.length);
   conselhoP.innerHTML = listaResposta[numero];
 }
 
