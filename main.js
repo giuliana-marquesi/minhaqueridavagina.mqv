@@ -11,7 +11,9 @@ var listaResposta = [
   'Se você não se ama como pode amar alguém? Posso ouvir um "Amém"?',
   'Que dia é hoje? O dia das coisas ficarem vermelhas! HA-HA',
   'Você já ouviu falar de MQV? Vai ser um bafo!',
-  'Dani ou Laura? Eu pegaria as duas. Vaginas tem orientação sexual própria! Ha-ha'
+  'Dani ou Laura? Eu pegaria as duas. Vaginas tem orientação sexual própria! Ha-ha',
+  'Relaxa e goza que a vida é rosa',
+  'Pode me tocar. Não precisa de outra mão'
 ]
 
 var cont = 0;
