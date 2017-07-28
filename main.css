@@ -27,7 +27,7 @@ body {
   }
 }
 #resposta-texto {
-  color: #032333;
+  color: #FFF6D5;
   margin: 0;
   text-align: center;
   font: 800 5vh 'Patrick Hand', sans-serif;
@@ -37,21 +37,21 @@ body {
   position: fixed;
   top: 33%;
   left: 50%;
-  margin-left: -46px;
+  margin-left: -42px;
   margin-top: 3vh;
-  width: 92px;
-  height: 164px;
-  background-image: url('imgs/mqv-ciclo-mobile.png');
+  width: 84px;
+  height: 143px;
+  background-image: url('imgs/mqv-ciclo-mobile.svg');
   background-repeat: no-repeat;
   background-position: top left;
 }
 
 @media (min-width: 600px) {
   #vagina {
-    margin-left: -92px;
-    width: 184px;
-    height: 328px;
-    background-image: url('imgs/mqv-ciclo.png');
+    margin-left: -79px;
+    width: 169px;
+    height: 287px;
+    background-image: url('imgs/mqv-ciclo.svg');
   }
 }
 
@@ -61,13 +61,13 @@ body {
 
 @keyframes mexe-vagina {
   from {background-position: 0}
-  to {background-position: -459px}
+  to {background-position: -422px}
 }
 
 @media (min-width: 600px) {
   @keyframes mexe-vagina {
     from {background-position: 0}
-    to {background-position: -918px}
+    to {background-position: -843px}
   }
 }
 

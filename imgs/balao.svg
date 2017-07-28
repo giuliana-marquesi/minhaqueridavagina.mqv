@@ -15,7 +15,10 @@
    height="605.88281"
    viewBox="0 0 935.34998 605.88281"
    sodipodi:docname="balao.svg"
-   inkscape:version="0.92.1 unknown">
+   inkscape:version="0.92.1 unknown"
+   inkscape:export-filename="/home/gigik/Documentos/minhaqueridavagina/imgs/balao.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <metadata
      id="metadata4602">
     <rdf:RDF>
@@ -24,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -48,14 +51,14 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.35870623"
-     inkscape:cx="-17.152901"
-     inkscape:cy="504.96456"
+     inkscape:cx="-597.01459"
+     inkscape:cy="58.917108"
      inkscape:window-x="0"
      inkscape:window-y="29"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4596" />
   <path
-     style="fill:#fff6d5;fill-opacity:1;stroke:none;stroke-width:2.7877965;stroke-opacity:1"
+     style="fill:#333333;fill-opacity:0.86821705;stroke:none;stroke-width:2.7877965;stroke-opacity:1;opacity:0.649"
      d="m 664.89819,542.89679 c -12.89027,-37.1676 -25.10567,-70.97897 -27.14536,-75.13641 L 634.04434,460.20141 406.15797,459.3 178.27164,458.3986 157.36316,452.00688 C 82.768548,429.20331 36.015828,383.61437 12.576748,310.82444 -13.184403,230.82333 1.2383168,140.7724 50.256538,75.563751 70.206168,49.024871 102.95801,26.493851 140.57372,13.431721 179.61346,-0.12490906 176.58164,4.0935461e-5 466.47884,4.0935461e-5 644.61301,4.0935461e-5 744.71741,1.0147309 755.53046,2.9299609 834.2948,16.880841 889.25995,61.254191 918.05081,134.13259 c 20.93449,52.99149 23.02405,120.5701 5.42082,175.31287 -8.03672,24.99271 -24.62204,57.38935 -38.1265,74.47378 -26.56706,33.60987 -85.06329,63.13116 -145.33249,73.345 -11.49966,1.94884 -22.2762,4.92674 -23.94784,6.61754 -1.67168,1.69079 -7.81726,33.18238 -13.65692,69.9813 -5.83962,36.79891 -11.39498,69.09052 -12.34517,71.75914 -1.07904,3.03041 -10.52655,-20.51855 -25.16452,-62.72543 z"
      id="path5228"
      inkscape:connector-curvature="0" />
