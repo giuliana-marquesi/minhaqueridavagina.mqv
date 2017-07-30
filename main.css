@@ -18,7 +18,7 @@ body {
   background-image: url('imgs/balao.png');
   background-size: 100% 100%;
   max-width: 60vw;
-  padding: 3vh 2vh 11vh;
+  padding: 3vh 5vh 13vh;
 }
 
 @media (min-width: 600px) {
@@ -36,7 +36,7 @@ body {
 
 #vagina {
   position: fixed;
-  top: 33%;
+  top: 35%;
   left: 50%;
   margin-left: -42px;
   margin-top: 3vh;
