@@ -38,10 +38,10 @@ body {
   position: fixed;
   top: 35%;
   left: 50%;
-  margin-left: -42px;
+  margin-left: -41px;
   margin-top: 3vh;
-  width: 84px;
-  height: 143px;
+  width: 82px;
+  height: 144px;
   background-image: url('imgs/mqv-ciclo-mobile.svg');
   background-repeat: no-repeat;
   background-position: top left;
@@ -49,8 +49,8 @@ body {
 
 @media (min-width: 600px) {
   #vagina {
-    margin-left: -85px;
-    width: 169px;
+    margin-left: -82px;
+    width: 163px;
     height: 287px;
     background-image: url('imgs/mqv-ciclo.svg');
   }
@@ -62,13 +62,13 @@ body {
 
 @keyframes mexe-vagina {
   from {background-position: 0}
-  to {background-position: -422px}
+  to {background-position: -409px}
 }
 
 @media (min-width: 600px) {
   @keyframes mexe-vagina {
     from {background-position: 0}
-    to {background-position: -843px}
+    to {background-position: -815px}
   }
 }
 
