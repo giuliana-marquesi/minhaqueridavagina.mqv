@@ -76,13 +76,12 @@ body {
   position: fixed;
   bottom: 0%;
   right: 0%;
-  margin-bottom: 11.5vh;
   display: block;
   width: 10vh;
-
   background-color: rgba(0,0,0,0);
-  padding: 1vh;
+  padding: 1vh 3vh 3vh 0vh;
 }
+
 .share-container a {
   display: block;
 }
