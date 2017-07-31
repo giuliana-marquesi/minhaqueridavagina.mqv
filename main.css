@@ -82,12 +82,36 @@ body {
   padding: 1vh 3vh 3vh 0vh;
 }
 
+@media (min-width: 320px) {
+  .share-container {
+    right: 50%;
+    margin-right: -27.5vh;
+    width: 50vh;
+    display: flex;
+  }
+}
+
 .share-container a {
   display: block;
 }
+
+@media (min-width:320px) {
+  .share-container a {
+    flex: auto;
+  }
+}
+
 .share-container a+a {
   margin-top: 1.5vh;
 }
+
+@media (min-width: 320px) {
+  .share-container a+a {
+    margin-left: 1.5vh;
+    margin-top: auto;
+  }
+}
+
 .share-container img {
   display: block;
   width: 100%;
