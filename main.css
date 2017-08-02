@@ -82,34 +82,45 @@ body {
   padding: 1vh 3vh 3vh 0vh;
 }
 
-@media (min-width: 320px) {
-  .share-container {
-    right: 50%;
-    margin-right: -27.5vh;
-    width: 50vh;
-    display: flex;
-  }
-}
-
 .share-container a {
   display: block;
-}
-
-@media (min-width:320px) {
-  .share-container a {
-    flex: auto;
-  }
 }
 
 .share-container a+a {
   margin-top: 1.5vh;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 420px) {
+  .share-container {
+    right: 50%;
+    margin-right: -27.5vh;
+    width: 50vh;
+    display: flex;
+  }
+  .share-container a {
+    flex: auto;
+  }
   .share-container a+a {
     margin-left: 1.5vh;
     margin-top: auto;
   }
+}
+
+@media (min-width: 720px) {
+  .share-container {
+    display: block;
+    right: 0;
+    top: 50%;
+    margin-top: -61px; /* Essa é a metade apenas de dois blocos, quando acrescentar mais precisa somar + 60px + 1.5*/
+    margin-right: 0;
+    width: 11vh;
+  }
+
+  .share-container a+a {
+    margin-top: 1.5vh;
+    margin-left: auto;
+  }
+
 }
 
 .share-container img {
