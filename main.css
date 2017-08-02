@@ -114,6 +114,7 @@ body {
     margin-top: -61px; /* Essa é a metade apenas de dois blocos, quando acrescentar mais precisa somar + 60px + 1.5*/
     margin-right: 0;
     width: 11vh;
+    padding-right: 5vh;
   }
 
   .share-container a+a {
