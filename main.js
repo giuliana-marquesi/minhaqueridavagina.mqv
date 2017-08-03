@@ -21,7 +21,6 @@ var listaResposta = [
   'Pode olhar pra mim, amiga! Eu sou linda!'
 ]
 
-var cont = 0;
 var numero = 0;
 
 function carregaConselho() {
