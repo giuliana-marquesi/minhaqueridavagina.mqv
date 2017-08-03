@@ -21,12 +21,6 @@ body {
   padding: 3vh 5vh 13vh;
 }
 
-@media (min-width: 600px) {
-  #resposta-balao {
-    max-width: 45vw;
-  }
-}
-
 #resposta-texto {
   color: #FFF6D5;
   margin: 0;
@@ -48,6 +42,11 @@ body {
 }
 
 @media (min-width: 600px) {
+  #resposta-balao {
+    max-width: 45vw;
+    padding: 5vh 5vh 13vh;
+  }
+
   #resposta-texto {
       font: 800 5vh 'Comfortaa', sans-serif;
   }
