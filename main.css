@@ -31,7 +31,7 @@ body {
   color: #FFF6D5;
   margin: 0;
   text-align: center;
-  font: 800 5vh 'Comfortaa', sans-serif;
+  font: 800 6vw 'Comfortaa', sans-serif;
 }
 
 #vagina {
@@ -48,6 +48,10 @@ body {
 }
 
 @media (min-width: 600px) {
+  #resposta-texto {
+      font: 800 5vh 'Comfortaa', sans-serif;
+  }
+
   #vagina {
     margin-left: -82px;
     width: 163px;
